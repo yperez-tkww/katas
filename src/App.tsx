@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import ProductCard from './components/ProductCard/ProductCard';
+import products from './mocks/products.json';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Shopping Land</p>
       </header>
+      <body className="mainContainer">
+        <ProductCard products={products} />
+      </body>
     </div>
   );
 }

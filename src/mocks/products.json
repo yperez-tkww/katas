@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Magic Phone",
+    "price": 25,
+    "description": "Includes free calls to the afterlife",
+    "image": "https://source.unsplash.com/-haAxbjiHds"
+  },
+  {
+    "id": 2,
+    "name": "Cherry Picks",
+    "price": 4.5,
+    "description": "Tasty and delicious",
+    "image": "https://source.unsplash.com/vbAEHCrvXZ0"
+  },
+  {
+    "id": 3,
+    "name": "Mexican Cactus",
+    "price": 12,
+    "description": "Does not need to be watered",
+    "image": "https://source.unsplash.com/fbAnIjhrOL4"
+  },
+  {
+    "id": 4,
+    "name": "Magic Phone",
+    "price": 25.0,
+    "description": "Includes free calls to the afterlife",
+    "image": "https://source.unsplash.com/-haAxbjiHds"
+  },
+  {
+    "id": 5,
+    "name": "Cherry Picks",
+    "price": 4.5,
+    "description": "Tasty and delicious",
+    "image": "https://source.unsplash.com/vbAEHCrvXZ0"
+  },
+  {
+    "id": 6,
+    "name": "Mexican Cactus",
+    "price": 12.0,
+    "description": "Does not need to be watered",
+    "image": "https://source.unsplash.com/fbAnIjhrOL4"
+  },
+  {
+    "id": 7,
+    "name": "Magic Phone",
+    "price": 25.0,
+    "description": "Includes free calls to the afterlife",
+    "image": "https://source.unsplash.com/-haAxbjiHds"
+  },
+  {
+    "id": 8,
+    "name": "Cherry Picks",
+    "price": 4.5,
+    "description": "Tasty and delicious",
+    "image": "https://source.unsplash.com/vbAEHCrvXZ0"
+  },
+  {
+    "id": 9,
+    "name": "Mexican Cactus",
+    "price": 12.0,
+    "description": "Does not need to be watered",
+    "image": "https://source.unsplash.com/fbAnIjhrOL4"
+  }
+]
