@@ -24,31 +24,48 @@ code {
   align-items: center
 }
 
-  .mainContainer {
-  /* background-color: burlywood; */
- width: 90%;
- display: grid;
-grid-template-columns: repeat(auto-fill, 250px);
-justify-content: space-around;
-grid-gap: 20px;
+.mainContainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: space-around;
+  grid-gap: 20px;
 
 }
 
-.cardContainer {
-  background-color:aquamarine;
-  border: 1px solid red;
-  flex:1;
+.cardOverlayContainer{
+  padding: 20px;
+  background: blue;
+
+}
+.cardOverlayContainer:hover {
+
+  + .overlayContent{
+  background: red;
+  display: flex;
+  flex-direction: column;
+} 
 }
 
-.gridContainer{
+.overlayContent{
+background: linear-gradient(
+  to bottom, 
+  transparent,
+  black
+);
+display: none;
+
+}
+
+.cardGridContainer{
   background-color: lightgray;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.gridImage {
-  width: 200px;
-  height: 200px;
-  padding-bottom: 10px
+
+.productGridImage {
+  padding-bottom: 10px;
+  aspect-ratio: 16 / 9;
 }
