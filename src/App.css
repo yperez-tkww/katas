@@ -38,13 +38,10 @@ code {
   background: blue;
 
 }
-.cardOverlayContainer:hover {
+.cardOverlayContainer:hover  + .overlayContent{
 
-  + .overlayContent{
-  background: red;
-  display: flex;
-  flex-direction: column;
-} 
+/* ! fix hover */
+
 }
 
 .overlayContent{
