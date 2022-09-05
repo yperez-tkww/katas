@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ProductCard from './components/ProductCard/ProductCard';
+import ProductsGrid from './components/ProductsGrid/ProductsGrid';
 import products from './mocks/products.json';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <h1>Shopping Land</h1>
       </header>
       <main className="mainContainer">
-        <ProductCard products={products} />
+        <ProductsGrid products={[products[0]]} />
       </main>
     </div>
   );
