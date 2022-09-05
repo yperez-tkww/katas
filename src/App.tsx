@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './App.css';
 import ProductCard from './components/ProductCard/ProductCard';
 import products from './mocks/products.json';
@@ -8,11 +7,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Shopping Land</p>
+        <h1>Shopping Land</h1>
       </header>
-      <body className="mainContainer">
+      <main className="mainContainer">
         <ProductCard products={products} />
-      </body>
+      </main>
     </div>
   );
 }

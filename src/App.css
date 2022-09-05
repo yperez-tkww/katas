@@ -41,7 +41,7 @@ grid-gap: 20px;
 }
 
 .gridContainer{
-  /* background-color: lightgray; */
+  background-color: lightgray;
   padding: 20px;
   display: flex;
   flex-direction: column;

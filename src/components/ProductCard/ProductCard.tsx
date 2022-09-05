@@ -7,9 +7,7 @@ const ProductCard: FC<Products> = ({ products }) => {
   return (
     <>
       {products.map((product) => (
-        <div className="cardContainer" key={product.id}>
-          <ProductGrid {...product} />
-        </div>
+        <ProductGrid {...product} key={product.id} />
       ))}
     </>
   );
