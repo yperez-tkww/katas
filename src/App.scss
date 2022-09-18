@@ -33,36 +33,71 @@ code {
 
 }
 
+
+//parent
 .cardOverlayContainer{
-  padding: 20px;
-  background: blue;
+  display: flex;
+  align-items: flex-end;
+
+
+// &:hover {
+//   .overlayContent{
+//     display: block;
+//     // border: solid 2px red;
+//     // display: flex;
+//     // flex-flow: column;
+//     // width: 100%; 
+//   }
+// }
 
 }
-.cardOverlayContainer:hover  + .overlayContent{
 
-/* ! fix hover */
-
-}
-
+//child
 .overlayContent{
 background: linear-gradient(
   to bottom, 
   transparent,
   black
-);
-display: none;
+  );
+  // display: none;
+
+
+  display: flex;
+  flex-flow: column;
+  width: 100%; 
+  height: auto;
+  row-gap: 4px;
+  padding: 5px;
 
 }
 
 .cardGridContainer{
-  background-color: lightgray;
+  background-color: rgb(248, 251, 253);
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 4px;
+
 }
 
 .productGridImage {
   padding-bottom: 10px;
   aspect-ratio: 16 / 9;
+}
+
+button {    
+  border-radius: 2px;
+  border: solid 1px #d3caca;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 3px;
+  background-color: #ffffff;
+  font-size: 14px;
+  &:hover{
+    color: rgb(0, 128, 0);
+    border: solid 1px rgb(0, 128, 0);
+  }
+
+
 }

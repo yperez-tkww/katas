@@ -8,7 +8,7 @@ const ProductCardGrid: FC<Product> = ({ name, image, description, price }) => {
       <strong className="productGridName">{name}</strong>
       <span className="productGridDescription">{description}</span>
       <span className="productGridPrice">{price} €</span>
-      <button>Add to cart 🤑</button>
+      <button>Add to cart</button>
     </div>
   );
 };

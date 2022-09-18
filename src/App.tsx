@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import ProductsGrid from './components/ProductsGrid/ProductsGrid';
 import { useContext } from 'react';
 import ProductContext from './context/ProductContext';
