@@ -1,10 +1,12 @@
-import { FC } from 'react';
-
-import { Products } from '../../types';
+import { FC, useContext } from 'react';
+import ProductContext from '../../context/ProductContext';
 import ProductCardGrid from '../ProductCard.tsx/ProductCardGrid';
 import ProductCardOverlay from '../ProductCard.tsx/ProductCardOverlay';
 
-const ProductsGrid: FC<Products> = ({ products }) => {
+//  TODO: ?? Do I pass "product" as props or is there a better another way?
+const ProductsGrid: FC = () => {
+  const products = useContext(ProductContext);
+
   return (
     <>
       {products.map((product) => (

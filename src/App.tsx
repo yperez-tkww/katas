@@ -12,7 +12,7 @@ function App() {
         <h1>Shopping Land</h1>
       </header>
       <main className="mainContainer">
-        <ProductsGrid products={products} />
+        <ProductsGrid />
       </main>
     </div>
   );
