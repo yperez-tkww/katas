@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import ProductContext from './context/ProductContext';
+import products from './mocks/products.json';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -8,7 +10,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <ProductContext.Provider value={products}>
+      <App />
+    </ProductContext.Provider>
   </React.StrictMode>
 );
 
