@@ -40,16 +40,6 @@ code {
   align-items: flex-end;
 
 
-// &:hover {
-//   .overlayContent{
-//     display: block;
-//     // border: solid 2px red;
-//     // display: flex;
-//     // flex-flow: column;
-//     // width: 100%; 
-//   }
-// }
-
 }
 
 //child
@@ -59,7 +49,7 @@ background: linear-gradient(
   transparent,
   black
   );
-  // display: none;
+
 
 
   display: flex;
@@ -84,6 +74,7 @@ background: linear-gradient(
 .productGridImage {
   padding-bottom: 10px;
   aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 button {    
@@ -100,4 +91,25 @@ button {
   }
 
 
+}
+
+.row{
+background-color: royalblue;
+display: flex;
+flex-wrap: row;
+
+}
+
+
+.column {
+border: solid 2px yellow;
+// flex: 0 0 50%;
+max-width: 100%;
+
+}
+
+@media(max-width: 800px) {
+.row {
+  flex-direction: column;
+}
 }

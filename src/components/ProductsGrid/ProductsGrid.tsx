@@ -12,7 +12,7 @@ const ProductsGrid: FC = () => {
       {products.map((product) => (
         <>
           <ProductCardGrid {...product} key={product.id} />
-          <ProductCardOverlay {...product} key={product.id} />
+          {/* <ProductCardOverlay {...product} key={product.id} /> */}
         </>
       ))}
     </>
